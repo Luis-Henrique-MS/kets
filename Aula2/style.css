@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.header {
+  display: flex;
+  background-color: hsl(160, 70%, 52%);
+  width: 100%;
+  margin-bottom: 90px;
+  padding: 10px 40px;
+  align-items: center;
+}
+
+.titulo {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  font-family: "Changa One", sans-serif;
+  margin-left: 450px;
+  font-size: 50px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.destaques {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-family: "Changa One", sans-serif;
+  text-decoration: none;
+  color: black;
+
+}
+
+.destaques a {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 1px;
+}
+
+.contato {
+  display: flex;
+  margin-left: 150px;
+  color: black;
+  font-family: "Changa One", sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 490px 500px 1000px
+}
+
+.texto{
+  background-color:white ;
+  margin-left: ;
+}
+.texto h1 {
+  margin-top: 90px;
+  font-family: "Changa One", sans-serif;  
+  font-size: 50px;
+  font-style: italic;
+}
+.texto h2{
+  font-family: "Changa One", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+.texto h3{
+  font-family: "Changa One", sans-serif;
+  font-style: italic;
+}
+
+
+.teste1{
+  background-color: #ffffff;
+}
+ .teste2{
+  background-color:#ffffff;
+}
