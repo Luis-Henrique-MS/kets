@@ -4,6 +4,11 @@
   font-size: 20px;
 }
 
+.borda {
+
+  box-shadow: blackx;
+}
+
 .changa-one-regular {
   font-family: "Changa One", sans-serif;
   font-weight: 400;
@@ -66,33 +71,63 @@
 
 .container {
   display: grid;
-  grid-template-columns: 490px 500px 1000px
+  grid-template-columns: 1fr 1fr;
+  margin-left: 450px;
+  margin-right: 450px;
+  gap: 10px;
+  box-shadow: 0 15px 35px black;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-.texto{
-  background-color:white ;
-  margin-left: ;
+.texto {
+  margin-left: 50px;
+  text-align: center;
+  background-color: hwb(0 100% 0%);
 }
+
 .texto h1 {
   margin-top: 90px;
-  font-family: "Changa One", sans-serif;  
+  font-family: "Changa One", sans-serif;
   font-size: 50px;
   font-style: italic;
 }
-.texto h2{
+
+.texto h2 {
   font-family: "Changa One", sans-serif;
   font-size: 30px;
   font-style: italic;
 }
-.texto h3{
+
+.texto h3 {
   font-family: "Changa One", sans-serif;
   font-style: italic;
 }
 
-
-.teste1{
-  background-color: #ffffff;
+.botao-adotar {
+  background-color: #f4a940;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  transition: 0.3s;
 }
- .teste2{
-  background-color:#ffffff;
+
+.botao-adotar:hover {
+  background-color: #e5942f;
+  transform: scale(1.05);
+}
+.container2{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ padding: 100px 30px 0 30px;
+}
+
+.container2 img{
+  width: 350px; 
+  height: auto;
 }
