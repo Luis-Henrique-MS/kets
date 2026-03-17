@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.borda {
+
+  box-shadow: blackx;
+}
+
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.header {
+  display: flex;
+  background-color: bisque;
+  width: 100%;
+  margin-bottom: 90px;
+  padding: 10px 40px;
+  align-items: center;
+}
+
+.titulo {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  font-family: "Changa One", sans-serif;
+  margin-left: 350px;
+  font-size: 50px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.destaques {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-family: "Changa One", sans-serif;
+  text-decoration: none;
+  color: black;
+
+}
+
+.destaques a {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 1px;
+}
+
+.contato {
+  display: flex;
+  margin-left: 150px;
+  color: black;
+  font-family: "Changa One", sans-serif;
+  text-align: center;
+}
+
+
+
+.container {
+  display: grid;
+  margin-top: 120px;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 450px;
+  margin-right: 450px;
+  gap: 10px;
+  box-shadow: 0 15px 35px black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.texto {
+  margin-left: 50px;
+  text-align: center;
+  background-color: hwb(0 100% 0%);
+}
+
+.texto h1 {
+  margin-top: 50px;
+  font-family: "Changa One", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.texto h2 {
+  font-family: "Changa One", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.texto h3 {
+  font-family: "Changa One", sans-serif;
+  font-style: italic;
+}
+
+.botao-adotar {
+  background-color: #f4a940;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.botao-adotar:hover {
+  background-color: #e5942f;
+  transform: scale(1.05);
+}
+
+#gatopedia {
+  background-color: bisque;
+  display: flex;
+  font-family: "Changa One", sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  box-shadow: 0 15px 35px;
+  margin-top: 250px;
+}
+
+#gatopedia h3 {
+  font-size: 40px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 5px;
+  /* bem pequeno */
+}
+
+.container2 img {
+
+  width: 380px;
+  height: 390px;
+  object-fit: cover;
+
+  margin-top: 50px;
+  margin-left: 20px;
+  background: white;
+  padding: 10px 10px 100px 10px;
+  /* parte de baixo maior */
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2);
+
+  transform: rotate(-2deg);
+  transition: 0.3s;
+}
+
+.container2 img:hover {
+  transform: scale(1.05) rotate(0deg);
+}
+
+.container2 a {
+  display: block;
+}
+
+.footer-col {
+  margin-top: 50px;
+  background-color: hsl(160, 56%, 59%);
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-col h3 {
+  font-family: "Changa One", sans-serif;
+  ;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: hwb(0 0% 100%);
+}
+
+.footer-col p {
+  font-family: "Changa One", sans-serif;
+  font-family: ;
+  font-size: 25px;
+  margin: 8px 0;
+  line-height: 1.5;
+  color: hsl(0, 0%, 0%);
+}
+
+.footer-col a {
+  font-family: "Changa One", sans-serif;
+  ;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.footer-col a:hover {
+  color: white;
+  transform: scale(1.05);
+}
